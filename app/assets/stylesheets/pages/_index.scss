@@ -1,0 +1,34 @@
+// Import page-specific CSS files here.
+@import "home";
+
+.info {
+  background: white;
+  padding: 24px;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.flat-card {
+  background-color: #F1F6FF;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4)
+}
+
+.flat-card-content {
+  padding: 16px 24px;
+}
+
+.flat-card-content > p {
+  margin: 0px;
+}
+
+.yellow {
+  color: #ffc107;
+}
+
+#delete-link {
+ color: #dc3545;
+}
